@@ -21,7 +21,7 @@
     // Configure the view for the selected state
 }
 
--(void) setBusiness:(YelpBusiness *) yelpBusiness {
+-(void)setBusiness:(YelpBusiness *) yelpBusiness {
     _yelpBusiness = yelpBusiness;
     [self.thumbInageView setImageWithURL: self.yelpBusiness.imageUrl];
     self.nameLabel.text = self.yelpBusiness.name;

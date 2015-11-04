@@ -64,7 +64,6 @@ NSString * const kYelpTokenSecret = @"mqtKIxMIR4iBtBPZCmCLEb-Dz3Y";
                                          @"ll" : @"37.774866,-122.394556",
                                          @"sort": [NSNumber numberWithInt:sortMode]}
                                        mutableCopy];
-    
     if (categories && categories.count > 0) {
         parameters[@"category_filter"] = [categories componentsJoinedByString:@","];
     }

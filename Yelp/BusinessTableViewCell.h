@@ -19,5 +19,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *categoriesLabel;
 
 @property (nonatomic, strong) YelpBusiness * yelpBusiness;
+-(void)setBusiness:(YelpBusiness *) yelpBusiness;
 
 @end
